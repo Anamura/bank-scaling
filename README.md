@@ -20,14 +20,14 @@ Spring Boot, Lombok, Spring Data, Spring Validation, RabbitMQ, Redis, Postgres d
 Swagger Spec
 
 http://localhost:8091/swagger-ui.html
-![swagger2](https://user-images.githubusercontent.com/5726929/216919874-c46f9135-44ee-4974-a918-66c7dc467942.png)
+![swagger2](https://user-images.githubusercontent.com/5726929/216921759-8f07e42a-409a-479a-ba33-8cf50ef26708.png)
 
 #### Usage
 
 
 -- curl http://localhost:8091/api/v1/account/{accountId}  get Account
 
--- curl http://localhost:8091/api/v1/account/transfer/{from}/{to}  transfer Balance
+-- curl http://localhost:8091/api/v1/account/transfer/{accountId}  transfer Balance
 
 -- curl http://localhost:8091/api/v1/user/{userId=1}/update  update User
 
@@ -41,7 +41,7 @@ http://localhost:8091/swagger-ui.html
     }
 
       $ curl -H "Accept: application/json" -H "Authorization: Bearer {token}" GET 
-      http://localhost:8091/api/v1/account/transfer/1/2
+      http://localhost:8091/api/v1/account/transfer/2
     {
       "from": 1,
       "to": 2,
