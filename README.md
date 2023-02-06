@@ -3,7 +3,7 @@
 В системе можно:
 1. Взаимодействовать с пользователем менять/удалить email и phone.
 2. Осуществить трансфер денег от одного пользователя к другому.
-3. BALANCE клиента увеличиваются на 10% но не более 207% от начального депозита.
+3. BALANCE клиента увеличиваются на 10% от начального депозита.
 4. Поиск пользователей с пагинацией и фильтрацией.
 
 Стек технологий:
@@ -20,7 +20,7 @@ Spring Boot, Lombok, Spring Data, Spring Validation, RabbitMQ, Redis, Postgres d
 Swagger Spec
 
 http://localhost:8091/swagger-ui.html
-![swagger2]()
+![swagger2](https://user-images.githubusercontent.com/5726929/216919874-c46f9135-44ee-4974-a918-66c7dc467942.png)
 
 #### Usage
 
