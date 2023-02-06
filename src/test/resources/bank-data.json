@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "string",
+      "password": "string",
+      "date_of_birth": "2023-02-05T16:42:18.902Z",
+      "email": [
+        {
+          "id": 11,
+          "email": "string"
+        }
+      ],
+      "phone": [
+        {
+          "id": 22,
+          "phone": "string"
+        }
+      ],
+      "account": {
+        "id": 4,
+        "balance": 100
+      }
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "offset": 0,
+    "pageSize": 30,
+    "pageNumber": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 1,
+  "totalElements": 1,
+  "last": true,
+  "size": 30,
+  "number": 0,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "numberOfElements": 1,
+  "first": true,
+  "empty": false
+}
