@@ -48,7 +48,6 @@ public class UserService {
     }
 
     public User updateUser(Long userId, User user) {
-
         if (user.getId() != userId) {
             throw new AccessDeniedException("Couldn't modify another User member=" + user.getId());
         }
@@ -77,7 +76,6 @@ public class UserService {
 
 
     public EmailData addEmail(Long userId, EmailData email, Long accountId) {
-
         Optional<User> user = userDao.findById(userId);
         if (user.isPresent()) {
             email.setUser(user.get());
